@@ -335,6 +335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c492e1548614544e9827a3d20f5c238, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cube: {fileID: 5826002972201069168}
 --- !u!114 &9067305977424339341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1441,7 +1442,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2538850387935750170
 Transform:
   m_ObjectHideFlags: 0

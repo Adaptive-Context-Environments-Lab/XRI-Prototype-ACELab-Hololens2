@@ -26,6 +26,9 @@ namespace QRTracking
         private System.Uri uriResult;
         private long lastTimeStamp = 0;
 
+        //initialize object
+        public GameObject cube;
+
         // Use this for initialization
         void Start()
         {
@@ -94,7 +97,12 @@ namespace QRTracking
                 launch = false;
                 LaunchUri();
             }
+
+            visulizeObject();
         }
+
+
+
 
         void LaunchUri()
         {
@@ -112,5 +120,16 @@ namespace QRTracking
             }
 // eventData.Use(); // Mark the event as used, so it doesn't fall through to other handlers.
         }
+
+
+        void visulizeObject()
+        {
+            if(CodeText == "PlantAvatar")
+            {
+                cube.SetActive(true);
+            }
+        }
+
+       
     }
 }
