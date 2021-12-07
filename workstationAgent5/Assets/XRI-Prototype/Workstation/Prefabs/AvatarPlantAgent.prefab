@@ -116,7 +116,7 @@ GameObject:
   - component: {fileID: 2680180013905918484}
   m_Layer: 0
   m_Name: AvatarPlantAgent
-  m_TagString: Untagged
+  m_TagString: PlantAvatarAgent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

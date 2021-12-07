@@ -6,7 +6,7 @@ public class AvatarMovingToward : MonoBehaviour
 {
     public bool move;
 
-    public Transform PlantAvatarAgent;
+    public GameObject PlantAvatarAgent;
     public Transform LightTarget;
     public float speed = 1.0f;
     // Start is called before the first frame update
@@ -20,12 +20,17 @@ public class AvatarMovingToward : MonoBehaviour
     {
         if(PlantAvatarAgent == null)
         {
-            PlantAvatarAgent = GameObject.Find("PlantAvatarAgent").transform;
+            PlantAvatarAgent = GameObject.FindWithTag("PlantAvatarAgent");
         }
-        if(move == true)
+
+        else
         {
-            PlantAvatarMove();
+            if (move == true)
+            {
+                PlantAvatarMove();
+            }
         }
+        
 
 
     }
