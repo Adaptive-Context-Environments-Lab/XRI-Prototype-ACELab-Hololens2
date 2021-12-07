@@ -27,7 +27,7 @@ namespace QRTracking
         private long lastTimeStamp = 0;
 
         //initialize object
-        public GameObject cube;
+        public GameObject PlantAvatar;
 
         // Use this for initialization
         void Start()
@@ -126,7 +126,7 @@ namespace QRTracking
         {
             if(CodeText == "PlantAvatar")
             {
-                cube.SetActive(true);
+                PlantAvatar.SetActive(true);
             }
         }
 
